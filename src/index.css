@@ -158,4 +158,60 @@ p {
   .photo {
     height: 150px;
   }
+}.button {
+  background: linear-gradient(135deg, #575739, #8bac6b);
+  color: rgb(245, 245, 245);
+  font-size: 10px;
+  font-weight: bold;
+  padding: 10px 20px; /* Reduced padding for a more compact look */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+ display: ruby-text-container;
+}
+
+.button:hover {
+  transform: translateY(-2px); /* Less movement for a subtle hover effect */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.button:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.add-btn, .remove-btn {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-top: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.add-btn:hover {
+  background-color: #ff4500;
+}
+.remove-btn {
+  background-color: #d9534f;
+  margin-left: 10px;
+}
+.remove-btn:hover {
+  background-color: #c9302c;
+}
+.cart {
+  margin-top: 20px;
+  padding: 10px;
+  border-top: 2px solid #ddd;
+}
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  padding: 8px;
+  background: #f9f9f9;
+  border-radius: 5px;
 }
