@@ -110,8 +110,12 @@ p {
   border: 0.25rem solid hsl(360, 71%, 66%);
   border-radius: 0.25rem;
   display: block;
+  transform: rotate(0deg);
 }
-
+.photo:hover, .logo:hover {
+  transform: rotate(360deg); /* Rotates on hover */
+  transition: transform 0.3s ease-in-out;
+}
 .logo {
   object-fit: cover;
   height: auto;
